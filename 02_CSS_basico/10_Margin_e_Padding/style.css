@@ -1,0 +1,109 @@
+/* identificação de ids - #id */
+/* Sempre identificando apenas um elemente */
+#paragrafos{ 
+    color: black;
+    /* Inserindo uma cor no backgournd */
+    /* background-color: blue; */
+    /* Inserindo uma imagem no backgourand */
+    background-image: url(./Fundos/fundo_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#
+/* Cor RGBA (0,0,0,0) */
+/* Cor héxadecimal color:#XXXXXX */
+
+#segundo_t{ 
+    
+    color:#289964;
+}
+
+/* Identificação de Class - .class */
+/* Pode ser aplicado em varios elementos*/
+.texto_roxo{color: darkmagenta;}
+
+.subp{ 
+    background-color: forestgreen;
+
+}
+/* Unidade de medidas fixas no css */
+/* usando div para interpretar visualização */
+#cm{
+    background-color: blue;
+    width: 1cm ;
+    height: 1cm ;
+}
+
+#mm{
+    background-color: red;
+    width: 2mm ;
+    height: 2mm ;
+}
+
+#in{
+    background-color: green;
+    width: 1in ;
+    height: 1in ;
+}
+
+#px{
+    background-color: orange;
+    width: 10px ;
+    height: 10px ;
+}
+
+#pt{
+    background-color: black;
+    width: 10pt ;
+    height: 10pt ;
+}
+/* Picas: 1pc =12pt */
+#pc{
+    background-color: brown;
+    width: 1pc ;
+    height: 1pc ;
+}
+
+/* Unidade de medida Relativa */
+/* unidade 'em' é relativo a div acima, herdada da div superior*/
+
+.container{
+    font-size: 20px;
+
+}
+.inside{
+    font-size: 2em;
+
+}
+
+/* Unidade de medida Relativa */
+/* unidade 'em' é relativo a div acima, herdada da div superior*/
+/* rem é referencia ao elemento html */
+
+/* vw é referente ao tamano da tela Largura */
+/* 1vw : 1% da visualisação  */
+
+/* vh é referente ao tamano da tela altura */
+/* 1vh : 1% da visualisação  */
+
+/* vmin é referente ao tamano da tela altura */
+/* 1vh : 1% da visualisação  */
+
+/* Margin e Paddin */
+#base{
+    height: 10px;
+    background-color: cadetblue;
+}
+
+#contem{
+    background-color: blue;
+    color: white;
+    /* margin-top: 10px; */
+    /* margin-left: 10px; */
+    margin: 10px;
+    /* padding-top: 10px; */
+    /* padding-left: 10px; */
+    padding: 10px;
+
+}

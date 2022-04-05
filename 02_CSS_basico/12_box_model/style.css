@@ -1,0 +1,20 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner{
+    background-color: crimson; 
+    padding: 5px; 
+    border: darkslateblue 5px solid;
+    margin: 10px;
+    /* Função que ajusta o tamanho do conteudo  */
+    box-sizing: border-box;
+}
+.conteudo{
+    background-color: darkgrey;
+    border: springgreen solid 5px;
+    padding: 5px;
+}
+
+/*  */

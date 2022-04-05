@@ -1,0 +1,38 @@
+body{
+
+    background-color: black;
+
+}
+
+.card{
+    background-image: url(../18_desafio_css_básico/assets/backgorund.png);
+    background-repeat: no-repeat;
+    font-family: cursive;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 1px 20px;
+    margin: auto;
+    margin-top: 10px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#insta{
+    list-style-image: url(./assets/Insta.png);
+}
+
+#tw{
+    list-style-image: url(./assets/Twitter.png);
+}
+
+#yt{
+    list-style-image: url(./assets/Youtube.png);
+}

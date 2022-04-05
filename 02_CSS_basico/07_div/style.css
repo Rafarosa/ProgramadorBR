@@ -1,0 +1,28 @@
+/* identificação de ids - #id */
+/* Sempre identificando apenas um elemente */
+#paragrafos{ 
+    color: brown;
+    /* Inserindo uma cor no backgournd */
+    /* background-color: blue; */
+    /* Inserindo uma imagem no backgourand */
+    background-image: url(./Fundos/fundo_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#
+/* Cor RGBA (0,0,0,0) */
+/* Cor héxadecimal color:#XXXXXX */
+
+#segundo_t{ 
+    
+    color:#289964;
+}
+
+/* Identificação de Class - .class */
+/* Pode ser aplicado em varios elementos*/
+.texto_roxo{color: darkmagenta;}
+
+.subp{ 
+    background-color: forestgreen;
+}

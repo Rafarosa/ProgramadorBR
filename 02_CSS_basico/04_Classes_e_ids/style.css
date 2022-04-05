@@ -1,0 +1,8 @@
+/* identificação de ids - #id */
+/* Sempre identificando apenas um elemente */
+#principal{ color: brown;}
+#segundo_t{color: darkgreen;}
+
+/* Identificação de Class - .class */
+/* Pode ser aplicado em varios elementos*/
+.texto_roxo{color: darkmagenta;}

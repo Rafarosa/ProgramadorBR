@@ -1,0 +1,18 @@
+p{
+    color: red;
+    /* text-align: left; */
+    /* text-align: justify; */
+    /* text-transform: uppercasel; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+     text-indent: 35px;
+    /* text-decoration: underline overline; */
+    /* letter-spacing: 1px; */
+    /* line-height: 100%; */
+    /* word-spacing: 5px; */
+    text-shadow: 2px 2px 5px black;
+}
+
+a{
+    text-decoration: none;
+}

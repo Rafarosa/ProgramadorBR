@@ -1,0 +1,22 @@
+.link{
+    /* text-decoration: none; */
+    /* color: chocolate; */
+    /* background: cornflowerblue; */
+    /* padding: 10px; */
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    /* border-radius: 10px; */
+    /* border: 2px solid cornflowerblue; */
+
+}
+
+.links:active{
+    background: darkolivegreen;
+    color: white;
+}
+
+.links:visited{
+    
+    background: #ddd;
+    color: thistle;
+}

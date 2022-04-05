@@ -1,0 +1,10 @@
+/* identificação de ids - #id */
+/* Sempre identificando apenas um elemente */
+#principal{ color: brown;}
+/* Cor RGBA (0,0,0,0) */
+/* Cor héxadecimal color:#XXXXXX */
+#segundo_t{ color:#70e5ae;}
+
+/* Identificação de Class - .class */
+/* Pode ser aplicado em varios elementos*/
+.texto_roxo{color: darkmagenta;}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,40 +8,52 @@
     <title>Display</title>
     <link href="./style.css" rel="stylesheet">
 </head>
-        <style type="text/css">
-            body{
-                font-size: 1.2rm;
-            }
-        </style>
+<style type="text/css">
+    body {
+        font-size: 1.2rm;
+    }
+</style>
 
 <body>
-    
-    <div>
 
+    <div>
+         <!-- Display: Block vai do inicio ao final da linha-->
+         <!-- é possivel colocar um tamanho variavel width e height-->
+         <!-- Você não pode ter uma div dentro de um parágrafo -->
+         <!-- Você não pode ter uma parágrafo dentro de um parágrafo -->
         <div> Esssa é uma DIV normal</div>
-        <div> E aqui a história<div style="background-color: brown; width: 500px; height: 100px;"> de dentro</div> Continua</div>
+        <div> E aqui a história<div style="background-color: brown; width: 500px; height: 100px;"> de dentro</div>
+            Continua</div>
 
 
     </div>
 
     <div>
-
+        <!-- Display: Blok - Naturalmente já tem uma margem associada ao parágrafo-->
+        <!-- é possivel alterar isso com um stylo-->
         <p style="margin: 0;"> Esse é um parágrafo normal </p>
         <p style="margin: 0;"> E aqui a história Continua </p>
 
     </div>
 
     <p>
-
-        Aqui eu tenho o inicio de um parágrafo <span style="background-color: blueviolet; width: 500px;"> Um 
-        SPAN no meio </span> E fim do paragrafo
+        <!-- Display: Inline Vai manter na mesma linha-->
+        <!-- Não conseguimos modivuar a altura e a largura, mesmo indicado-->
+        <!-- Você nunca vai ter um elemento do tipo bloco e esteja dentro do parágrafo -->
+        <!-- Display: inline-block permite que você modifique a Largura do bloco -->
+        Aqui eu tenho o inicio de um parágrafo <span style="background-color: blueviolet; width: 500px; display: inline-block;"> Um
+            SPAN no meio </span> E fim do paragrafo
 
     </p>
 
     <p>
-        Aqui tenho o inicio de um paragrafo <img src="./assets/360_F_205807203_yPbBIKogbyGH4xZ9XwkF306GD4Ps9JTx.jpg" style="width: 400px;display: none;">
+        <!-- Display: none faz com qu eo elemento não seja mostrado na tela -->
+        <!-- visibility: hidden não mostra a imagem mas mantem o espaço alocado a ele -->
+        Aqui tenho o inicio de um paragrafo <img src="./assets/360_F_205807203_yPbBIKogbyGH4xZ9XwkF306GD4Ps9JTx.jpg"
+            style="width: 400px;visibility: hidden;">
         e o fim do parágrafo
     </p>
 
 </body>
+
 </html>

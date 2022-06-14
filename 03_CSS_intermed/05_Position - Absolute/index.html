@@ -1,0 +1,58 @@
+~<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position - Static e Relative</title>
+    <style>
+        .quadrado {
+            /*propriedade padrão display: block*/
+            /*display: inline-block;*/
+            width: 100px;
+            height: 100px;
+        }
+
+        .quadrado-red {
+            background-color: red;
+        }
+
+        .quadrado-green {
+            background-color: green;
+        }
+
+        .quadrado-blue {
+            /*Ao utilizar o possicionamento absoluto, o elemento não
+            fará mais parte do possicionamento da pagina.
+            com isso os elemento subsequente serão reajuztado no local
+            do item com a propriedade*/
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            background-color: blue;
+        }
+        
+        .quadro {
+            /*Possição relativa sempre estara referenciando o ponto Original do elemento*/
+            /*o elemento pai deve estar com um possicionamento diferente dopadrão 
+            position:block para que o elemento interno tenha referência a sua esturutura
+            e não a esturtura do proprio elemento (Possition: absolut)*/
+            position: relative;
+            width: 500px;
+            height: 400px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Ao utilizar possicionamento relativo, é importante validar 
+         o possicinamento dos outros elemento, pois influenciam 
+         no valor dos atributos do elemento (top,left..)-->
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+    </div>
+    
+</body>
+</html>

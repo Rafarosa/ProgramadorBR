@@ -1,0 +1,45 @@
+~<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position - Static e Relative</title>
+    <style>
+        .quadrado {
+            width: 100px;
+            height: 100px;
+        }
+
+        .quadrado-red {
+            background-color: red;
+        }
+
+        .quadrado-green {
+            background-color: green;
+        }
+
+        .quadrado-blue {
+            /*O position Fixed coloca o elemento fixo em relação a viewer port
+              ou seja a visualização da pagina */
+            position: fixed;
+            left: 300px;
+            background-color: blue;
+        }
+        
+        .quadro {
+            width: 500px;
+            height: 4000px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+    </div>
+    
+</body>
+</html>

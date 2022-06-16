@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08_Float</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            color: #333;
+        }
+        #i1{
+            /*A propriedade Float, permite que um elemento 'Flutue' sobre outro*/
+            /*Neste caso o texto vai abraçar a imagem*/
+            float:left;
+        }
+
+        p{
+            /*Para remover a função anterior ao texto, é indicado utilizar o parâmetro Clear*/
+            clear:none;
+        }
+
+        div{
+            border: 1px solid #000;
+            overflow: auto;
+        }
+        </style>
+</head>
+<body>
+    <div>
+        <img id="i1" src="../01_display/assets/360_F_205807203_yPbBIKogbyGH4xZ9XwkF306GD4Ps9JTx.jpg" alt="Imagem 1" title="Imagem 1" />
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis voluptatibus eius dolor ad unde ex quos quaerat vitae, natus minima obcaecati rerum, ullam quis voluptatem deleniti optio similique reiciendis sunt.
+        </p>
+    </div>
+</body>
+</html>

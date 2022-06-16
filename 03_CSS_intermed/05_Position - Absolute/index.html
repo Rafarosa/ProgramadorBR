@@ -22,9 +22,9 @@
         }
 
         .quadrado-blue {
-            /*Ao utilizar o possicionamento absoluto, o elemento não
-            fará mais parte do possicionamento da pagina.
-            com isso os elemento subsequente serão reajuztado no local
+            /*Ao utilizar o posicionamento absoluto, o elemento não
+            fará mais parte do posicionamento da página.
+            com isso os elemento subsequente serão reajustado no local
             do item com a propriedade*/
             position: absolute;
             right: 0px;
@@ -33,10 +33,10 @@
         }
         
         .quadro {
-            /*Possição relativa sempre estara referenciando o ponto Original do elemento*/
-            /*o elemento pai deve estar com um possicionamento diferente dopadrão 
-            position:block para que o elemento interno tenha referência a sua esturutura
-            e não a esturtura do proprio elemento (Possition: absolut)*/
+            /*Posição relativa sempre estará referenciando o ponto Original do elemento*/
+            /*o elemento pai deve estar com um posicionamento diferente do padrão
+            position:block para que o elemento interno tenha referência a sua estrutura
+            e não a estrutura do próprio elemento (Position: absolute)*/
             position: relative;
             width: 500px;
             height: 400px;
@@ -45,8 +45,8 @@
     </style>
 </head>
 <body>
-    <!-- Ao utilizar possicionamento relativo, é importante validar 
-         o possicinamento dos outros elemento, pois influenciam 
+    <!-- Ao utilizar posicionamento relativo, é importante validar
+         o posicionamento dos outros elemento, pois influenciam
          no valor dos atributos do elemento (top,left..)-->
     <div class="quadro">
         <div class="quadrado quadrado-red"></div>

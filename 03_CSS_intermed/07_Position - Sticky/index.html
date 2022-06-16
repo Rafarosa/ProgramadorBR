@@ -20,10 +20,10 @@
         }
 
         .quadrado-blue {
-            /*O position Fixed coloca o elemento fixo em relação a viewer port
-              ou seja a visualização da página */
-            position: fixed;
-            left: 300px;
+            /*Mantém a posição mesmo ao realizar scroll na página*/
+            /*Mantém o elemento como referência para todos os outros elementos*/
+            position: sticky;
+            top:100px;
             background-color: blue;
         }
         
